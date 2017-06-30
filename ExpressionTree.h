@@ -69,7 +69,7 @@ class ExprTree {
     void commuteHelper(ExprTreeNode* p);
     bool isEquivalentHelper(const ExprTreeNode* p,
 			    const ExprTreeNode* q) const;
-	bool isOperator(const ExprTreeNode *p) const;
+
 
     // Data member
     ExprTreeNode *root;   // Pointer to the root node
