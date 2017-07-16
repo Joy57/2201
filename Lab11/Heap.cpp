@@ -67,8 +67,7 @@ void Heap<DataType,KeyType,Comparator>::insert ( const DataType &newDataItem )
 template < typename DataType, typename KeyType, typename Comparator >
 DataType Heap<DataType,KeyType,Comparator>::remove () throw ( logic_error )
 {
-	DataType temp;
-	return temp;
+	/*add stuff here later*/
 }
 
 template < typename DataType, typename KeyType, typename Comparator >
